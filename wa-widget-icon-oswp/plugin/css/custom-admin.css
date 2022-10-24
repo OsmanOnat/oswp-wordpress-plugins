@@ -1,0 +1,55 @@
+:root{
+    -primary-button-red-color: #d63638;
+    -primary-button-red-hover:#cd3739;
+}
+
+/**
+ * Image Select Span
+ */
+.image_select_listener_message{
+    display: none;
+}
+
+/*
+ * SPINNER 
+ */
+.spinner{
+    display: none;
+    margin-top: 15px;
+}
+
+.oswp-button-primary-red{
+    background: var(-primary-button-red);
+    border-color: var(-primary-button-red);
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+.oswp-button-primary-orange{
+    background: orange;
+    border-color: orange;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.oswp-file-border{
+    border-style:dashed;width:fit-content;padding:10px;color:gray;
+}
+.flex{
+    display: flex;
+}
+
+/*.upload_file_icon::file-selector-button{
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+}*/
+
+/* Phone Button Save && Remove Responsive Option */
+@media only screen and (max-width: 1200px) {
+    #phone_button_save, #phone_button_remove{
+        margin-top: 10px;
+    }
+}
