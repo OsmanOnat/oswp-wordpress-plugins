@@ -3,24 +3,6 @@
  */
 const WHATSAPP_PLUGIN_PREFIX = "oswp_";
 
-const returnMessage = ( type_arr = "success" , message = "Success Message") => {
-    var box_type = [ "success", "warning", "error", "info" ];
-
-    box_type.forEach( (element , index) => {
-        if( element == type_arr )
-        {
-            var message_box  = '<div class="notice notice-'+ String( element ) +' is-dismissible">';
-            message_box += '<p>'+ String( message ) +'</p>';
-            message_box += '</div>';
-
-            return message_box;
-        }
-    });
-    
-};
-
-returnMessage("error", "fafsadsad");
-
 /**
  * @var {object} check_spinner    Only Use Spinner Name And Submit Form Id
  * 
@@ -46,26 +28,18 @@ check_spinner.forEach( (element , index) => {
     });
 });
 
-/*const ImageCheckedAttr = document.getElementsByName( String( WHATSAPP_PLUGIN_PREFIX + "icon_name" ) );
+const returnMessage = ( type_arr = "success" , message = "Success Message") => {
+    var box_type = [ "success", "warning", "error", "info" ];
 
-const ImageSelectListener = document.getElementsByClassName( "image_select_listener_message" );
-
-const ImageChangeRemoveButton = document.getElementById( WHATSAPP_PLUGIN_PREFIX + "icon_remove" );
-
-const ImageChangeSubmitButton = document.getElementById( WHATSAPP_PLUGIN_PREFIX + "icon_change" );
-
-if( ImageCheckedAttr.length >= 0 )
-{
-    ImageCheckedAttr.forEach( ( index , key ) => {
-        if( index.checked == false )
+    box_type.forEach( (element , index) => {
+        if( element == type_arr )
         {
-            ImageChangeRemoveButton.disabled = true;
-            ImageSelectListener[ 0 ].style.display = "block";
-            ImageSelectListener[ 0 ].style.color = "red";
-            ImageSelectListener[ 0 ].style.fontSize = "18px";
-            ImageSelectListener[ 0 ].textContent = "Please Select Icon!";
+            var message_box  = '<div class="notice notice-'+ String( element ) +' is-dismissible">';
+            message_box += '<p>'+ String( message ) +'</p>';
+            message_box += '</div>';
 
-            console.log( "Checked yok" );
+            return message_box;
         }
     });
-}*/
+    
+};
