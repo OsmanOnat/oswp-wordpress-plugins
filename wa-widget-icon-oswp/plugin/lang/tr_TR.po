@@ -1,0 +1,19 @@
+#: admin.php:301
+msgid "Select File"
+msgstr "Dosya Seç"
+
+#: admin.php:320
+msgid "Add Phone Number"
+msgstr "Telefon Numarası Ekle"
+
+#: admin.php:326
+msgid "Phone Number"
+msgstr "Telefon Numarası"
+
+#: admin.php:376
+msgid "Change"
+msgstr "Değiştir"
+
+#: admin.php:382
+msgid "Remove"
+msgstr "Sil"
