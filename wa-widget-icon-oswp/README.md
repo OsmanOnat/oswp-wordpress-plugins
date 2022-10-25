@@ -1,3 +1,5 @@
+# Simple But Useful - Basit Ama Kullanışlı
+
 * ATTENTION - EN
  - First of all, install the whatsapp icon that you will use on your site. Your uploads should not exceed 5 MB. Otherwise you won't have an icon. The icons you uploaded will appear as the "Image" picture. Remember! You can only upload 1 icon at a time in your icon installation.
  - Please use the "Add Phone Number" field to add your Phone number. This field will contain only the phone number. If you want to delete the phone number, use the "Delete" button. When adding a phone number, do not forget to add the country phone code.
