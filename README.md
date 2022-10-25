@@ -7,6 +7,9 @@
  ╚═════╝ ╚══════╝ ╚══╝╚══╝ ╚═╝  
 ```
 
+# Don't forget to star the project for support ! - EN 
+# Destek için projeyi yıldızlamayı unutmayın ! - TR
+
 # Information - EN
 - Custom Made WordPress Plugins by OSWP.
 - All WordPress **Users** And **Developers** Available.
