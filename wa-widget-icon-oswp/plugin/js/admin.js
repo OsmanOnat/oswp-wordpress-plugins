@@ -4,6 +4,11 @@
 const WHATSAPP_PLUGIN_PREFIX = "oswp_";
 
 /**
+ * @var {string} WHATSAPP_PLUGIN_SEARCH_PARAM  For Plugin Parameter Control
+ */
+const WHATSAPP_PLUGIN_SEARCH_PARAM = "?page=oswpwhatsapp";
+
+/**
  * key   -> index    => Be Only Class Name. Use querySelector() --> Spinner Name 
  * value -> element  => Be Only ID Tag. Use getElementById()    --> Submit Form Id
  * 
@@ -19,18 +24,21 @@ const check_spinner = new Map(
     ]
 );
 
-check_spinner.forEach( (element , index) => {
-    /**
-     * @var {object} spinner_name   Spinner Class Name
-     */
-    var spinner_name = document.querySelector( index );
-
-    /**
-     * @var {object} spinner_form_name  Spinner Form Element ID
-     */
-    var spinner_form_name = document.getElementById( element );
+if( window.location.search == WHATSAPP_PLUGIN_SEARCH_PARAM )
+{
+    check_spinner.forEach( (element , index) => {
+        /**
+         * @var {object} spinner_name   Spinner Class Name
+         */
+        var spinner_name = document.querySelector( index );
     
-    spinner_form_name.addEventListener( "submit", () => {
-        spinner_name.style.display = "block";
+        /**
+         * @var {object} spinner_form_name  Spinner Form Element ID
+         */
+        var spinner_form_name = document.getElementById( element );
+        
+        spinner_form_name.addEventListener( "submit", () => {
+            spinner_name.style.display = "block";
+        });
     });
-});
+}
