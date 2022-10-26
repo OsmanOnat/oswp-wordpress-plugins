@@ -37,6 +37,7 @@
 - OSWP Tarafından Özel Olarak Hazırlanan WordPress Eklentileri.
 - Tüm WordPress **Kullanıcıları** Ve **Geliştiricileri** Kullanabilir.
 - Ticari Amacıyla Satılamaz/Satın Alınamaz Ve Dağıtılamaz.
+- Projelerde kullanırsanız bu depoyu etiketlemelisiniz veya ismini bir yere yazmalısınız !
 
 # Eklenti Bilgilendirme - TR
 -
@@ -53,4 +54,3 @@
 - İlgili Eklenti Dosyasını Klonlayıp **public/wp-content/plugins** içerisine atıp eklentiyi rahatça kullanabilirsiniz.
 - Admin Panel üzerinden eklentiyi aktifleştirmeyi unutmayın!
 - Eklenti Gerekli işlemleri arka planda yapacaktır.
-- Projelerde kullanırsanız bu depoyu etiketlemelisiniz veya ismini bir yere yazmalısınız !
