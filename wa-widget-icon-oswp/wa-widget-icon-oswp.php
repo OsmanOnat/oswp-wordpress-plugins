@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name:         WA Widgesdat Icon - OSWP
+ * Plugin Name:         WA Widget Icon - OSWP
  * Description:         Add whatsapp icon / button to your site without writing code thanks to the WA Widget Icon OSWP plugin. Upload an icon of your choice. Select the icon. Enter phone number. Position your icon.
  * Version:             1.0.0
  * Requires PHP:        7.4.1
